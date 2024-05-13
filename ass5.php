@@ -58,9 +58,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                         <a href="ass6.php" class="mb-1 btn btn-md btn-block" style="background-color: #fdfdfd;">Archived</a>
 
                         <?php
-                        define('DB_HOST', "localhost");
-                        define('DB_USER', "root");
-                        define('DB_PASS', "");
+                        define('DB_HOST', "database-5.c3862usea78f.us-east-1.rds.amazonaws.com");
+                        define('DB_USER', "admin123");
+                        define('DB_PASS', "adminmin12");
                         define('DB_NAME', "assignment1");
 
                         $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
