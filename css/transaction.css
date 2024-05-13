@@ -1,0 +1,212 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 9, 2023, 6:22:15 PM
+    Author     : yeaps
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --lato: 'Lato', sans-serif;
+    --light: #F9F9F9;
+    --blue: #3C91E6;
+    --light-blue: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #342E37;
+    --red: #DB504A;
+    --yellow: #FFCE26;
+    --light-yellow: #FFF2C6;
+    --orange: #FD7238;
+    --light-orange: #FFE0D3;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body.dark {
+    --light: #0C0C1E;
+    --grey: #060714;
+    --dark: #FBFBFB;
+}
+
+body {
+    background: var(--grey);
+    overflow-x: hidden;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+}
+
+/* MAIN */
+.content main {
+    width: 100%;
+    padding: 36px 24px;
+    font-family: var(--poppins);
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+}
+
+.content main .table-data {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;
+    color: var(--dark);
+}
+
+.content main .table-data > div {
+    border-radius: 20px;
+    background: var(--light);
+    padding: 24px;
+    overflow-x: auto;
+}
+
+.content main .table-data .head {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.content main .table-data .head h3 {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content main .table-data .head .bx {
+    cursor: pointer;
+}
+
+.content main .table-data .order {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+.content main .table-data .order table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content main .table-data .order table th {
+    padding-bottom: 12px;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid var(--grey);
+}
+
+.content main .table-data .order table td {
+    padding: 16px 0;
+}
+
+.content main .table-data .order table tr td:first-child {
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    padding-left: 6px;
+}
+
+.content main .table-data .order table td img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content main .table-data .order table tbody tr:hover {
+    background: var(--grey);
+}
+
+.content main .table-data .order table tr td .status {
+    font-size: 10px;
+    padding: 6px 16px;
+    color: var(--light);
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.content main .table-data .order table tr td .status.completed {
+    background: var(--blue);
+}
+
+.content main .table-data .order table tr td .status.process {
+    background: var(--yellow);
+}
+
+.content main .table-data .order table tr td .status.pending {
+    background: var(--orange);
+}
+
+.btnupdate{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+select, body, input, table{
+    font: 14pt Calibri;
+}
+
+.question{
+    background-color: lightblue;
+}
+
+.correct{
+    background-color: lightgreen;
+}
+
+.wrong{
+    background-color: lightpink;
+}
+
+.error{
+    border: 2px solid black;
+    background-color: pink;
+    color: brown;
+    list-style-position: inside;
+}
+
+.error, .info{
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+}
+
+.info{
+    border: 2px solid black;
+    background-color: lightblue;
+    color: navy;
+    font-size: larger;
+}

@@ -1,0 +1,129 @@
+
+
+/* template css */
+.u-section-1 .u-sheet-1 {
+  min-height: 550px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Lexend;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -35px 27px 0 auto;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 0px;
+  background-image: none;
+  margin: -48px 147px 0 auto;
+  padding: 11px 18px 13px;
+}
+
+.u-section-1 .u-table-1 {
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-table-entity-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-table-header-1 {
+  font-weight: 700;
+  background-image: none;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -55px auto 60px 15px;
+  padding: 9px 14px 11px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 10px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -48px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: 29px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 35px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: -37px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 10px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -41px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: -48px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: 29px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 18px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -34px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: -37px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: 21px;
+  }
+}
+
