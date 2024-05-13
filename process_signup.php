@@ -4,9 +4,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
  */
-define('DB_HOST', "database-5.c3862usea78f.us-east-1.rds.amazonaws.com");
-define('DB_USER', "admin123");
-define('DB_PASS', "adminmin12");
+define('DB_HOST', "assignment-db.c3862usea78f.us-east-1.rds.amazonaws.com");
+define('DB_USER', "admin");
+define('DB_PASS', "password123");
 define('DB_NAME', "assignment1");
 
 $studentid = $_POST['studentid'];
