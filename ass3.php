@@ -176,8 +176,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 
                 <div>
                     <button type="submit" class="btn mb-1" style="background-color: #b8e0ff;">Submit</button>
-                    <a href="done1.2.html" class="btn mb-1 " style="background-color: #ff6c6c;">Reset</a>
-                    <a href="done1.0.html" class=" btn mb-1 " style="background-color: #d3d3d3;">Back</a>
                 </div>
             </form>
         </div>
@@ -204,4 +202,3 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 
     </body>
 </html>
-

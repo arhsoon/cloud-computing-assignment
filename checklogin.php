@@ -19,9 +19,9 @@ if (isset($_POST['studentid']) && isset($_POST['studentpass'])) {
     $role = test_input($_POST['role']);
 
     if (empty($studentid)) {
-        header("Location: ../login.php?error=Student ID is required");
+        header("Location: login.php?error=Student ID is required");
     } else if (empty($studentpass)) {
-        header("Location: ../login.php?error=Password is required");
+        header("Location: login.php?error=Password is required");
     } else {
 
         // Hashing the password
@@ -45,15 +45,15 @@ if (isset($_POST['studentid']) && isset($_POST['studentpass'])) {
                 $_SESSION['role'] = $row['role'];
                 $_SESSION['sposition'] = $row['sposition'];
 
-                header("Location: ../SRC-home.php");
+                header("Location: SRC-Home.php");
             } else {
-                header("Location: ../ass1.php?error=Incorrect Student ID or Password");
+                header("Location: ass1.php?error=Incorrect Student ID or Password");
             }
         } else {
-            header("Location: ../ass1.php?error=Incorrect Student ID or Password");
+            header("Location: ass1.php?error=Incorrect Student ID or Password");
         }
     }
 } else {
-    header("Location: ../SRC-home.php");
+    header("Location: SRC-Home.php");
 }
 ?>

@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $price = $_POST["price"];
     $status = $_POST["status"];
 
-    $sql = "INSERT INTO events (title, description, start_date, end_date, price, status) 
+    $sql = "INSERT INTO events (title, description, start, end, price, status) 
           VALUES ('$title', '$description', '$start', '$end', '$price', '$status')";
 
     if (mysqli_query($conn, $sql)) {
