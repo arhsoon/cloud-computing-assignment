@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error = "Please enter email and password";
     } else {
 
-        define('DB_HOST', "assignment-db.c3862usea78f.us-east-1.rds.amazonaws.com");
+        define('DB_HOST', "src-db.chw6wsykej92.us-east-1.rds.amazonaws.com");
         define('DB_USER', "admin");
         define('DB_PASS', "password123");
         define('DB_NAME', "assignment1");
